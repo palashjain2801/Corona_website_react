@@ -33,10 +33,9 @@ export const fetchDailyDate = async() =>
     }
 }
 
-export const countrries = async () => {
+export const fetchCountries = async () => {
     try {
         const response = await axios.get(`${url}/countries`);
-        console.log("countrries -> response", response)
         
         
     } catch (error) {
