@@ -2,8 +2,9 @@ import React, {useState,useEffect} from 'react'
 import {fetchDailyDate } from '../../api'
 import {Line , Bar} from 'react-chartjs-2'
 import styles from './Charts.module.css'
-const Charts =({data:{confirmed,recovered,deaths} , country}) =>{
-    const [dailyData, setDailyData] = useState([])
+const Charts =({data , country}) =>{
+    console.log("Charts -> data", data)
+    const [dailyDate, setDailyData] = useState([])
     useEffect(()=>{
         const fetchAPI = async() =>{
             setDailyData(await fetchDailyDate());
@@ -11,18 +12,18 @@ const Charts =({data:{confirmed,recovered,deaths} , country}) =>{
        // console.log("Charts -> dailyData", dailyData)
 
         fetchAPI();
-    });
-    const lineChart = (
-    dailyData.length ?(  <Line
+    },[]);
+    const lineChart = (    
+        dailyDate[0] ?(  <Line
             data = {{
-                labels:dailyData.map(({date}) => date),
+                labels:dailyDate.map(({date}) => date),
                 datasets:[{
-                    data: dailyData.map(({confirmed})=> confirmed),
+                    data: dailyDate.map(({confirmed})=> confirmed),
                     label:'Infected',
                     borderColor: '#3333ff',
                     fill: true
                 },{
-                    data: dailyData.map(({deaths})=> deaths),
+                    data: dailyDate.map(({deaths})=> deaths),
                     label:'Deaths',
                     borderColor: 'rgba(255 ,0,0,0.5)',
                     fill: true
@@ -30,7 +31,7 @@ const Charts =({data:{confirmed,recovered,deaths} , country}) =>{
             }} />) : null
     );
     const barchart = (
-        confirmed?(
+        data.confirmed?(
             <Bar
             data = {{
                 labels:['Infected','Recovered','Deaths'],
@@ -41,7 +42,7 @@ const Charts =({data:{confirmed,recovered,deaths} , country}) =>{
                         'rgba(0,255,0,0.5)',
                         'rgba(255 ,0,0,0.5)',
                     ],
-                    data:[confirmed,recovered,deaths]
+                    data:[data.confirmed.value,data.recovered.value,data.deaths.value]
                 }]
 
             }}
