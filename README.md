@@ -1,4 +1,5 @@
 # Corona_website_react
+### Website is hosted at [https://newcoronatracker.netlify.app/](https://newcoronatracker.netlify.app/)
 
 ## Information
 * This website will gyve you updated corona information. 
@@ -23,3 +24,5 @@
 * When you choose country. It provides information about "Infected" , "Recovered" and "Deaths" in that country.
 
 ![alt text](https://github.com/palashjain2801/Corona_website_react/blob/master/corona_website/git_Image/image_3.JPG)
+
+
