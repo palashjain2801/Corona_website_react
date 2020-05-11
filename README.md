@@ -16,4 +16,10 @@
 * It took 1 week to develop this website and special thanks to "Adrian Hajdin" for helping me develop this website. I really liked the explanation he provided.
 
 ## Look of this website 
+* Front Look of website 
 ![alt text](https://github.com/palashjain2801/Corona_website_react/blob/master/corona_website/git_Image/image_1.JPG)
+![alt text](https://github.com/palashjain2801/Corona_website_react/blob/master/corona_website/git_Image/image_2.JPG)
+
+* When you choose country. It provides information about "Infected" , "Recovered" and "Deaths" in that country.
+
+![alt text](https://github.com/palashjain2801/Corona_website_react/blob/master/corona_website/git_Image/image_3.JPG)
