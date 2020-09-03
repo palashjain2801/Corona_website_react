@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "902ea44e2339565ec154894b3560058d",
+    "revision": "66311359b63919cd4495da79aa7cf789",
     "url": "//palashjain2801.github.io/Corona_website_react/index.html"
   },
   {
-    "revision": "fc4e5966b8c7d4cc6c70",
+    "revision": "96f7a036533ed6706b62",
     "url": "//palashjain2801.github.io/Corona_website_react/static/css/main.1d340100.chunk.css"
   },
   {
-    "revision": "1c21f229969c51e8fd8f",
-    "url": "//palashjain2801.github.io/Corona_website_react/static/js/2.7d141908.chunk.js"
+    "revision": "9245b2b06d5bfab5fee1",
+    "url": "//palashjain2801.github.io/Corona_website_react/static/js/2.d1d4cf83.chunk.js"
   },
   {
     "revision": "176852ae27885dfd7559e0fb4b332d24",
-    "url": "//palashjain2801.github.io/Corona_website_react/static/js/2.7d141908.chunk.js.LICENSE.txt"
+    "url": "//palashjain2801.github.io/Corona_website_react/static/js/2.d1d4cf83.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fc4e5966b8c7d4cc6c70",
-    "url": "//palashjain2801.github.io/Corona_website_react/static/js/main.7d3b02d0.chunk.js"
+    "revision": "96f7a036533ed6706b62",
+    "url": "//palashjain2801.github.io/Corona_website_react/static/js/main.9c353a85.chunk.js"
   },
   {
     "revision": "3b33fead0a03ba87a4bc",
