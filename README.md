@@ -1,5 +1,6 @@
 # Corona_website_react
 ### Website is hosted at [https://newcoronatracker.netlify.app/](https://newcoronatracker.netlify.app/)
+### Website is hosted at [https://palashjain2801.github.io/Corona_website_react/#/](https://palashjain2801.github.io/Corona_website_react/#/)
 
 ## Information
 * This website will gyve you updated corona information. 
