@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "//palashjain2801.github.io/Corona_website_react/static/css/main.1d340100.chunk.css",
+    "main.js": "//palashjain2801.github.io/Corona_website_react/static/js/main.7d3b02d0.chunk.js",
+    "main.js.map": "//palashjain2801.github.io/Corona_website_react/static/js/main.7d3b02d0.chunk.js.map",
+    "runtime-main.js": "//palashjain2801.github.io/Corona_website_react/static/js/runtime-main.3470bac2.js",
+    "runtime-main.js.map": "//palashjain2801.github.io/Corona_website_react/static/js/runtime-main.3470bac2.js.map",
+    "static/js/2.7d141908.chunk.js": "//palashjain2801.github.io/Corona_website_react/static/js/2.7d141908.chunk.js",
+    "static/js/2.7d141908.chunk.js.map": "//palashjain2801.github.io/Corona_website_react/static/js/2.7d141908.chunk.js.map",
+    "index.html": "//palashjain2801.github.io/Corona_website_react/index.html",
+    "precache-manifest.0d7f9e063d43f5c0cea12a5b3c2d898e.js": "//palashjain2801.github.io/Corona_website_react/precache-manifest.0d7f9e063d43f5c0cea12a5b3c2d898e.js",
+    "service-worker.js": "//palashjain2801.github.io/Corona_website_react/service-worker.js",
+    "static/css/main.1d340100.chunk.css.map": "//palashjain2801.github.io/Corona_website_react/static/css/main.1d340100.chunk.css.map",
+    "static/js/2.7d141908.chunk.js.LICENSE.txt": "//palashjain2801.github.io/Corona_website_react/static/js/2.7d141908.chunk.js.LICENSE.txt",
+    "static/media/covid-19-2.png": "//palashjain2801.github.io/Corona_website_react/static/media/covid-19-2.deb02317.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3470bac2.js",
+    "static/js/2.7d141908.chunk.js",
+    "static/css/main.1d340100.chunk.css",
+    "static/js/main.7d3b02d0.chunk.js"
+  ]
+}
